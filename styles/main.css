@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Nixie One';
+    src: url('../fonts/NixieOne-Regular.otf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    font-family: 'Nixie One';
+    font-weight: 400;
+}
+
+body {
+    background-color: #434059;
+}
+
+h3 {
+    padding: 0 10px;
+    font-size: 13vw;
+    border: 8px solid #fff;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 5vw;
+}
+
+.header_wrapper {
+    padding-bottom: 150px;
+}
+
+.header_wrapper h2 {
+    text-transform: uppercase;
+    font-size: 13vw;
+}
+
+.header_wrapper h2:nth-child(2) {
+    text-align: right;
+}
+
+.header_wrapper span {
+    padding: 0 10px;
+    border: 8px solid #fff;
+}
+
+.header_wrapper p {
+    padding-top: 140px;
+    max-width: 50%;
+    /* line-height: 45px; */
+}
+
+.sum_wrapper {
+    padding-bottom: 150px;
+}
+
+.sum_wrapper_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sum_wrapper img {
+    max-width: 30%;
+    margin: auto;
+}
+
+.sum_wrapper h3 {
+    margin: auto;
+}
+
+.sum_wrapper p {
+    margin-left: auto;
+    max-width: 50%;
+}
+
+.getInTouch_wrapper > * {
+    margin-bottom: 10px;
+}
+
+.getInTouch_wrapper h3 {
+    width: max-content;
+    margin-left: auto;
+}
+
+.getInTouch_wrapper a {
+    text-decoration: underline;
+}
