@@ -4,40 +4,48 @@
 	<meta charset="UTF-8">
 	<title>My cool portfolio</title>
 	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<div class="header_wrapper">
-		<h2>Hello there</h2>
-		<h2>I am
+		<h2 data-aos="fade-right"
+			data-aos-duration="1000">Hello there</h2>
+		<h2 data-aos="fade-left"
+		data-aos-duration="1000">I am
 			<br /><span>Sergey</span>
 		</h2>
-		<p>
+		<p data-aos="fade-right"
+		data-aos-duration="1000">
 			I like my work.
-			I like learning. Every day I
+			I like learn. Every day I
 			learning something new.
-			I trying myself in frontend, backend,
-			gamedev, design and other interesting
-			things.
+			I've been trying myself in the 
+			frontend, backend, game dev, design, 
+			and other interesting things
 		</p>
 	</div>
 
 	<div class="sum_wrapper">
 		<div class="sum_wrapper_top">
-			<img src="./assets/man.svg" alt="">
-			<h3>The<br />sum</h3>
+			<img src="./assets/man.svg" alt=""
+			data-aos="fade-right">
+			<h3 data-aos="fade-left">The<br />sum</h3>
 		</div>
-		<p>
+		<p data-aos="fade-left">
 			There will be huge wall of text... Just wait
 		</p>
 	</div>
 
-	<div class="getInTouch_wrapper">
+	<div class="getInTouch_wrapper" data-aos="fade-bottom">
 		<h3>Get in <br /> touch</h3>
 		<p>Intr0vert.noname@mail.ru</p>
 		<p><a href="https://www.linkedin.com/in/sergey-namestnikov-1b0938196/">LinkedIn</a></p>
 		<p><a href="https://github.com/Intr0vert">GitHub</a></p>
+		<p><a href="https://www.instagram.com/9_intr0vert/">Instagram</a></p>
 	</div>
 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="scripts/main.js"></script>
+	<script> AOS.init(); </script>
 </body>
 </html>
