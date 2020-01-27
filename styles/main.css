@@ -20,10 +20,15 @@
     text-decoration: none;
     color: #7D7A92;
     list-style: none;
+    outline: none;
 }
 
 body {
     background-color: #434059;
+    overflow-x: hidden;
+}
+
+body > * {
     overflow-x: hidden;
 }
 
@@ -75,12 +80,12 @@ p {
 }
 
 .header_wrapper p {
-    padding-top: 100px;
+    padding-top: 50px;
     max-width: 50%;
 }
 
 .sum_wrapper {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .sum_wrapper_top {
